@@ -6,6 +6,13 @@
   }  
 
   @font-face {
+    font-family: 'Apple Garamond Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('AppleGaramond-Italic.woff') format('woff');
+  }
+
+  @font-face {
     font-family: 'Samsung';
     src: url('BreezeSans-Regular_20150728.ttf');
   }
@@ -163,6 +170,7 @@
     color: var(--dl-color-default-gray2);
     font-weight: 400;
     text-decoration: NONE;
+    font-family: 'Apple Garamond Italic';
   }
   .homepage-text02 {
     color: rgba(31, 74, 241, 1);
