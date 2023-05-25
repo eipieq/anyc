@@ -401,3 +401,22 @@ footer {
 .work-image:last-child {
   margin-right: 0;
 }
+@media only screen and (max-width: 768px) {
+  .work-projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-image {
+    margin-bottom: 20px;
+  }
+
+  .work-frame {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .work-chevron-container {
+    display: none;
+  }
+}
