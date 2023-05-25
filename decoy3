@@ -10,11 +10,6 @@
   web3, portfolio, design, blog, art, technology, fashion climate change">
   <meta name="robots" content="index, follow">
   <link rel="icon" href="fevicon.png">
-  <!--<style>
-    body {
-      overflow: hidden;
-    }
-  </style>-->
 </head>
 <body>
   <div>
@@ -35,7 +30,38 @@
             <a href="http://eipi.in">(3. About)</a>
             <a href="http://eipi.in">(4.Contact)</a>
             </span>
-      </div>
+      </div>      
+      <!--<div>
+        <div class="work-container">
+          <div class="work-work">
+            <div class="work-projects">
+              <div class="work-image">
+                <img
+                  src="Frame 16.png"
+                  alt="Frame1611475"
+                  class="work-frame"
+                />
+                <span class="work-text"><span>anyc studio</span></span>
+              </div>
+              <div class="work-image">
+                <img
+                  src="Frame 17.png"
+                  alt="Frame1711475"
+                  class="work-frame"
+                />
+                <span class="work-text">
+                  <span>Min Yoongi | fashion e-com</span>
+                </span>
+              </div>
+              <div class="work-chevron-container">
+                <span class="work-chevron work-chevron-up">&lt;</span>
+                <span class="work-chevron work-chevron-down">&gt;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+      <!--Optimised-->
       <div class="work-container">
         <div class="work-projects">
           <div class="work-image">
