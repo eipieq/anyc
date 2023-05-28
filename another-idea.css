@@ -522,6 +522,10 @@ mad-slider .slide:last-child::before {
   mad-slider .slide:last-child::before {
       margin-left:32px
   }
+
+  mad-slider .slide figcaption {
+    font-size: 12px;
+  }
 }
 
 /* warning text */
