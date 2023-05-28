@@ -539,7 +539,7 @@ mad-slider .slide:last-child::before {
 }
 .w-frame {
   gap: 10px;
-  max-width: 490px;
+  max-width: 450px;
   height: auto;
   display: flex;
   padding: 12px 20px;
