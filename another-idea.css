@@ -503,13 +503,13 @@ mad-slider .slide:last-child::before {
 }
 
 @media screen and (max-width: 767px) {
-  mad-slider {
+  /*mad-slider {
       padding-left:24px
-  }
+  }*/
 
   mad-slider .slide {
-      margin-left: 8px;
-      margin-right:8px
+      margin-left: 5px;
+      margin-right:5px
       
   }
 
@@ -523,11 +523,12 @@ mad-slider .slide:last-child::before {
   width: 100%;
   display: flex;
   overflow: auto;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   /*align-items: center;*/
   flex-direction: column;
   margin-top: 40px;
   margin-left: 5px;
+  margin-bottom: 100px;
 }
 .w-frame {
   gap: 10px;
@@ -558,17 +559,22 @@ mad-slider .slide:last-child::before {
 }
 @media screen and (max-width: 767px) {
   .w-container {
-    margin-left: 0; /* Adjust the margin-left value as needed */
-    padding-left: 24px; /* Add the desired padding-left for mobile screens */
-    padding-right: 24px; /* Add the desired padding-right for mobile screens */
+    /*margin-left: 0; /* Adjust the margin-left value as needed */
+    /*padding-left: 24px; /* Add the desired padding-left for mobile screens */
+    /*padding-right: 24px; /* Add the desired padding-right for mobile screens */
+    max-width: 100%;
+    height: auto;
   }
 
   .w-frame {
-    width: 100%; /* Adjust the width to occupy the full width of the container */
+    /*width: 100%; /* Adjust the width to occupy the full width of the container */
+    max-width: 100%;
+    height: auto;
   }
 
   .w-text {
-    width: 100%; /* Adjust the width to occupy the full width of the container */
+    max-width: 100%; /* Adjust the width to occupy the full width of the container */
+    height: auto;
   }
 }
 
