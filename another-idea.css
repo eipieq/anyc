@@ -38,6 +38,9 @@
     src: url('Compagnon-Roman.otf');
   }
 
+  body{
+    margin: 0;
+  }
 
   .desktop1-container1 {
     width: 100%;
@@ -89,6 +92,7 @@
     right: 0px;
     max-width: 100%;
     height: auto;
+    border-bottom: 1px solid #333333;
   }  
   .my-video {
     top: 100px;
@@ -280,6 +284,7 @@
     }
     .english-text{
       margin-bottom: 150px;
+      margin-left: 20px;
     }
   }
 
@@ -322,6 +327,7 @@ footer {
 }
 
 ---------------------------------------------
+
 .work-container {
   width: 100%;
   display: flex;
@@ -434,7 +440,7 @@ mad-slider {
   flex-direction: row;
   align-items: center;
   white-space: nowrap;
-  padding-left: calc((80vw - 1180px) / 2);
+  /*padding-left: calc((80vw - 1180px) / 2);*/
   overflow-x: scroll;
   overflow-y: hidden;
   scrollbar-width: none;
@@ -462,8 +468,8 @@ mad-slider .slide {
   height: 100%;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 5px;
-  margin-right:5px
+  margin-left: 10px;
+  margin-right:10px
 }
 
 mad-slider .slide img {
@@ -520,19 +526,20 @@ mad-slider .slide:last-child::before {
 
 /* warning text */
 .w-container {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   overflow: auto;
   /*min-height: 100vh;*/
   /*align-items: center;*/
   flex-direction: column;
   margin-top: 40px;
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 100px;
 }
 .w-frame {
   gap: 10px;
-  width: 490px;
+  max-width: 490px;
   height: auto;
   display: flex;
   padding: 12px 20px;
@@ -557,24 +564,6 @@ mad-slider .slide:last-child::before {
   font-stretch: normal;
   text-decoration: none;
 }
-@media screen and (max-width: 767px) {
-  .w-container {
-    /*margin-left: 0; /* Adjust the margin-left value as needed */
-    /*padding-left: 24px; /* Add the desired padding-left for mobile screens */
-    /*padding-right: 24px; /* Add the desired padding-right for mobile screens */
-    max-width: 100%;
-    height: auto;
-  }
 
-  .w-frame {
-    /*width: 100%; /* Adjust the width to occupy the full width of the container */
-    max-width: 100%;
-    height: auto;
-  }
 
-  .w-text {
-    max-width: 100%; /* Adjust the width to occupy the full width of the container */
-    height: auto;
-  }
-}
 
