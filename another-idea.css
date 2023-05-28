@@ -517,3 +517,58 @@ mad-slider .slide:last-child::before {
       margin-left:32px
   }
 }
+
+/* warning text */
+.w-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  /*align-items: center;*/
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+.w-frame {
+  gap: 10px;
+  width: 490px;
+  height: auto;
+  display: flex;
+  padding: 12px 20px;
+  overflow: hidden;
+  align-items: flex-start;
+  border-color: rgba(235, 87, 87, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  background-color: rgba(235, 87, 87, 0.15000000596046448);
+}
+.w-text {
+  color: rgba(0, 0, 0, 1);
+  width: 450px;
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Courier;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .w-container {
+    margin-left: 0; /* Adjust the margin-left value as needed */
+    padding-left: 24px; /* Add the desired padding-left for mobile screens */
+    padding-right: 24px; /* Add the desired padding-right for mobile screens */
+  }
+
+  .w-frame {
+    width: 100%; /* Adjust the width to occupy the full width of the container */
+  }
+
+  .w-text {
+    width: 100%; /* Adjust the width to occupy the full width of the container */
+  }
+}
+
