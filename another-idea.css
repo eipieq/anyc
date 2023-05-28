@@ -467,7 +467,7 @@ mad-slider .slide {
 }
 
 mad-slider .slide img {
-  width: auto;
+  width: 600px;
   height: 350px;
   object-fit: cover;
   border-radius: 2px;
