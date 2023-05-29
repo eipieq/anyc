@@ -496,7 +496,8 @@ mad-slider .slide figcaption {
 }
 
 mad-slider .slide:last-child {
-  position:relative
+  position:relative;
+  margin-right: 20px;
 }
 
 mad-slider .slide:last-child::before {
@@ -506,6 +507,10 @@ mad-slider .slide:last-child::before {
   top: 0;
   position: absolute;
   margin-left:calc((80vw - 1180px) / 2)
+}
+
+mad-slider .slide:first-child {
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 767px) {
@@ -520,7 +525,7 @@ mad-slider .slide:last-child::before {
   }
 
   mad-slider .slide:last-child::before {
-      margin-left:32px
+      margin-left:20px
   }
 
   mad-slider .slide figcaption {
