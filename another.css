@@ -110,7 +110,7 @@ text-decoration: none;
 
 
 .inline-img img[src="pfp.jpg"]:hover {
-    transform: scale(5); /* Scale value for pfp.jpg */
+    transform: scale(4); /* Scale value for pfp.jpg */
     transform-origin: top left;
   }
   
