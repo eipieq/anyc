@@ -106,6 +106,7 @@ text-decoration: none;
 .inline-img img:hover {
     transform: scale(10); /* Increase the scale value as desired */
     transform-origin: top left;
+    border-color: 1px solid black;
   }
 
 
