@@ -30,10 +30,18 @@ h1, h2, p {
     padding:0
 }
 
-a {
-    color: #000;
-    text-decoration:none
+/* unvisited link */
+a:link {
+color: rgba(31, 74, 241, 1);
+text-decoration: none;
 }
+  
+/* visited link */
+a:visited {
+color: rgba(31, 74, 241, 1);
+text-decoration: none;
+}
+
 
 .signifier {
     font-family:signifier
@@ -59,9 +67,9 @@ a {
     font-size:3vw
 }
 
-.splt {
+/*.splt {
     display:flex
-}
+}*/
 
 .static {
     display:none
@@ -156,7 +164,7 @@ mad-slider {
     min-width: var(--width);
     height: 100%;
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 150px;
     margin-left: 10px;
     margin-right:10px
   }
