@@ -93,7 +93,7 @@ text-decoration: none;
 .inline-img {
     display: inline-block;
     position: relative;
-    width:auto
+    width:auto;
 }
 
 .inline-img img {
